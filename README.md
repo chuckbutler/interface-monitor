@@ -21,7 +21,7 @@ specify the relation through which the monitoring service is becoming available,
 we call this relation ``ganglia''.
 
 ```python
-@when('ganlia.available')
+@when('ganglia.available')
 def setup_monitoring(ganglia):
     ip = ganglia.endpoint()
 ```
